@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    border-bottom: 2px solid #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #000, #222);
+}
+
+.hero img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.roster {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.roster h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player {
+    background-color: #121212;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.player img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+
+.player h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.player p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #aaa;
+}
+
+.player button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.player button:hover {
+    background-color: #666;
+}
+
+.player:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 3px #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #aaa;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.social-links {
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 2rem; /* Ajusta el tamaño de los iconos */
+    color: #fff;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ddd; /* Color al pasar el cursor */
+}
+
+.social-icon:hover i {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
